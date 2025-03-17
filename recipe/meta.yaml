@@ -1,5 +1,5 @@
 {% set name = "mambular" %}
-{% set version = "1.3.0" %}
+{% set version = "1.3.1" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/basf/mamba-tabular/archive/v{{ version }}.tar.gz
-  sha256: 7e03c3b06134f860bcda04611232b5ad215c84db24e63f293d94173ec96cecfd
+  sha256: f2492a20231afbbadd720e32374f74cc9e52897de4fbd5ed1eff04734eb06d18
 
 build:
   noarch: python
