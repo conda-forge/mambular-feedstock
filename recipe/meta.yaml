@@ -1,5 +1,5 @@
 {% set name = "mambular" %}
-{% set version = "1.4.0" %}
+{% set version = "1.5.0" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/basf/mamba-tabular/archive/v{{ version }}.tar.gz
-  sha256: c92744a523288d77b63ca74c4890a856ead727fb5589a13ff74141f0a4f20b52
+  sha256: 16008babc99b6cf05cf1ba7e8848e999bdbde080ef6ee78a2d64808f63081e95
 
 build:
   noarch: python
@@ -22,6 +22,7 @@ requirements:
     - pip
     - poetry-core
   run:
+    - pretab >=0.0.1,<0.0.2
     - accelerate >=1.2.1,<2.0.0
     - einops >=0.8.0,<0.9.0
     - scikit-optimize >=0.10.2,<0.11.0
