@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://github.com/basf/mamba-tabular/archive/v${{ version }}.tar.gz
-  sha256: 16008babc99b6cf05cf1ba7e8848e999bdbde080ef6ee78a2d64808f63081e95
+  sha256: 8440895818fc7c980425d93ef3f81a79e92ac84739adb763b9fc7df4e8103e72
 
 build:
   number: 1
