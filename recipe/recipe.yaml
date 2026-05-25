@@ -43,10 +43,10 @@ requirements:
 tests:
   - python:
       imports:
-        - mambular
+        - deeptab
       pip_check: true
-
       python_version: ${{ python_min }}.*
+
 about:
   summary: A python package for tabular deep learning with mamba blocks.
   license: MIT
