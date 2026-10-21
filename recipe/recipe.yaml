@@ -11,8 +11,6 @@ package:
 source:
   url: https://github.com/basf/mamba-tabular/archive/v${{ version }}.tar.gz
   sha256: d30309998022e011c6cf132ad3837276aa372a3c643f96a052e757d23263d2f9
-  patches:
-    - faiss.patch
 
 build:
   number: 0
